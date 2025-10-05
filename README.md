@@ -1,7 +1,7 @@
-# ClientAPI
+# 🚀 ClientAPI - Aplicação de Gerenciamento de Clientes
 
 API para gerenciamento de clientes utilizando **Clean Architecture** e **Domain-Driven Design (DDD)**, desenvolvida em **Java 25** com **Spring Boot 3.5.x**.  
-O projeto utiliza um banco de dados em memória (**H2**) para facilitar desenvolvimento e testes locais.
+O projeto utiliza um banco de dados em memória (**H2**) para facilitar desenvolvimento e testes locais. 💻🛠️
 
 ---
 
@@ -12,10 +12,10 @@ O projeto segue os princípios da **Clean Architecture**, com separação clara 
 ```
 
 com.github.diegolins10.clientapi
-├── application         # Casos de uso e DTOs
-├── domain              # Entidades e interfaces de repositório
-├── infrastructure      # Persistência, mapeamentos e configurações
-└── interfaces          # Controllers REST
+├── application         # Casos de uso e DTOs 📝
+├── domain              # Entidades e interfaces de repositório 🏛️
+├── infrastructure      # Persistência, mapeamentos e configurações 🗄️
+└── interfaces          # Controllers REST 🌐
 
 ````
 
@@ -25,19 +25,20 @@ com.github.diegolins10.clientapi
 
 Dependências principais do projeto:
 
-- **Spring Boot Web** (`spring-boot-starter-web`) → criação de endpoints REST  
-- **Spring Data JPA** (`spring-boot-starter-data-jpa`) → persistência de dados  
-- **Validation** (`spring-boot-starter-validation`) → validações de campos  
-- **Lombok** (`lombok`) → reduz boilerplate (getters, setters, constructors)  
-- **H2 Database** (`com.h2database:h2`) → banco em memória para desenvolvimento/testes  
-- **Spring Boot DevTools** (`spring-boot-devtools`) → hot reload e facilidades de desenvolvimento  
+- **Spring Boot Web** (`spring-boot-starter-web`) → criação de endpoints REST 🌐  
+- **Spring Data JPA** (`spring-boot-starter-data-jpa`) → persistência de dados 💾  
+- **Validation** (`spring-boot-starter-validation`) → validações de campos ✅  
+- **Lombok** (`lombok`) → reduz boilerplate ✂️  
+- **H2 Database** (`com.h2database:h2`) → banco em memória para desenvolvimento/testes 🏗️  
+- **Spring Boot DevTools** (`spring-boot-devtools`) → hot reload e facilidades de desenvolvimento 🔄  
 
 Dependências opcionais para futuras evoluções:
-- **PostgreSQL Driver** (`org.postgresql`) → banco relacional real  
-- **MapStruct** (`org.mapstruct`) → mapeamento DTO ↔ Entity  
-- **Spring Boot Actuator** → métricas e health check  
-- **Spring Security** → autenticação e autorização  
-- **Swagger/OpenAPI** (`springdoc-openapi`) → documentação dos endpoints  
+
+- **PostgreSQL Driver** (`org.postgresql`) → banco relacional real 🐘  
+- **MapStruct** (`org.mapstruct`) → mapeamento DTO ↔ Entity 🔀  
+- **Spring Boot Actuator** → métricas e health check 📊  
+- **Spring Security** → autenticação e autorização 🔒  
+- **Swagger/OpenAPI** (`springdoc-openapi`) → documentação dos endpoints 📑  
 
 ---
 
@@ -45,11 +46,11 @@ Dependências opcionais para futuras evoluções:
 
 | Método | Endpoint | Descrição |
 |--------|----------|-----------|
-| `POST` | `/api/clientes` | Cria um cliente |
-| `GET` | `/api/clientes` | Lista todos os clientes |
-| `GET` | `/api/clientes/{id}` | Busca cliente por ID |
-| `PUT` | `/api/clientes/{id}` | Atualiza cliente |
-| `DELETE` | `/api/clientes/{id}` | Deleta cliente |
+| `POST` | `/api/clientes` | Cria um cliente ➕ |
+| `GET` | `/api/clientes` | Lista todos os clientes 📃 |
+| `GET` | `/api/clientes/{id}` | Busca cliente por ID 🔎 |
+| `PUT` | `/api/clientes/{id}` | Atualiza cliente ✏️ |
+| `DELETE` | `/api/clientes/{id}` | Deleta cliente 🗑️ |
 
 ---
 
@@ -83,12 +84,12 @@ http://localhost:8080/api/clientes
 
 ## 🛠 Tecnologias
 
-* Java 25
-* Spring Boot 3.5.x
-* H2 Database (in-memory)
-* Maven
-* Lombok
-* JPA/Hibernate
+* 🟢 **Java 25**
+* 🌐 **Spring Boot 3.5.x**
+* 💾 **H2 Database (in-memory)**
+* ⚙️ **Maven**
+* ✂️ **Lombok**
+* 🏛️ **JPA/Hibernate**
 
 ---
 
@@ -96,9 +97,10 @@ http://localhost:8080/api/clientes
 
 * O projeto segue o **padrão Clean Architecture**, com camadas separadas para **domínio**, **aplicação**, **infraestrutura** e **interfaces**.
 * Banco H2 é **volátil** (dados desaparecem ao parar a aplicação). Para produção, substituir por **PostgreSQL** ou outro banco relacional.
-* Preparado para **adicionar autenticação JWT** e **documentação Swagger/OpenAPI** futuramente.
+* Preparado para **adicionar autenticação JWT** e **documentação Swagger/OpenAPI** futuramente. 🔐📑
 
-```
+---
 
+✨ **by Diego Lins**
 
 
