@@ -1,6 +1,3 @@
-Perfeito! Aqui está uma **versão do README com badges**, emojis e visual mais profissional para o GitHub:
-
----
 # 🚀 ClientAPI - Aplicação de Gerenciamento de Clientes
 
 ![Java](https://img.shields.io/badge/Java-25-blue?logo=java) 
