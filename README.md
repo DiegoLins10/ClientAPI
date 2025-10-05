@@ -138,6 +138,34 @@ http://localhost:8080/api/clientes
 
 ---
 
+### 🚀 Próximos Passos
+
+* [ ] 🏠 **Integrar API do ViaCEP** para preencher e validar endereços automaticamente ao criar ou atualizar clientes.
+  Fonte: [ViaCEP - API](https://viacep.com.br/)
+
+* [ ] 🎯 **Adicionar Result Pattern** para retorno consistente de sucesso ou falha nas operações.
+
+* [ ] 🔄 **Implementar middleware / interceptadores** para logs, tratamento de erros unificado e validações globais.
+
+* [ ] 🔒 **Adicionar autenticação JWT** para proteger os endpoints da API.
+
+* [ ] 📑 **Documentar a API com Swagger / OpenAPI** para facilitar testes e integração com outros sistemas.
+
+* [ ] 🐘 **Substituir H2 por PostgreSQL** ou outro banco relacional para persistência em produção.
+
+* [ ] 🧪 **Adicionar testes de integração** que validem fluxos completos da API.
+
+* [ ] ✅ **Adicionar validações avançadas de campos** como email, telefone e CPF.
+
+* [ ] 🔀 **Implementar mapeamento DTO ↔ Entity com MapStruct** para reduzir boilerplate.
+
+### ***Indicadores de Conclusão***
+
+* [ ] = tarefa pendente
+* [x] = tarefa concluída
+
+---
+
 ## 📖 Observações
 
 * O projeto segue o **padrão Clean Architecture**, com camadas separadas para **domínio**, **aplicação**, **infraestrutura** e **interfaces**.
