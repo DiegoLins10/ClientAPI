@@ -30,13 +30,13 @@ com.github.diegolins10.clientapi
 
 | Dependência                                          | Para que serve                                                                             | Emoji |
 | ---------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----- |
-| **Spring Boot Web** 🌐 (`spring-boot-starter-web`)      | Permite criar **endpoints REST** e construir a camada web da aplicação                     | 🌐    |
-| **Spring Data JPA** 💾  (`spring-boot-starter-data-jpa`) | Facilita a **persistência de dados** usando JPA/Hibernate, abstraindo queries SQL          | 💾    |
-| **Validation** ✅ (`spring-boot-starter-validation`)    | Adiciona **validações automáticas** em DTOs e entidades                                    | ✅     |
-| **Lombok** ✂️(`lombok`)                                | Reduz **boilerplate code**, gerando getters, setters, construtores e outros métodos comuns | ✂️    |
-| **H2 Database** 🏗️(`com.h2database:h2`)                | Banco de dados **em memória**, ideal para desenvolvimento e testes                         | 🏗️   |
-| **Spring Boot DevTools** 🔄 (`spring-boot-devtools`)    | Permite **hot reload**, reiniciando a aplicação ao salvar alterações                       | 🔄    |
-| **Swagger/OpenAPI** 📑  (`springdoc-openapi`)            | Gera **documentação automática da API** e interface interativa para testar endpoints       | 📑    |
+| **Spring Boot Web** 🌐 (`spring-boot-starter-web`)      | Permite criar **endpoints REST** e construir a camada web da aplicação                     | 
+| **Spring Data JPA** 💾  (`spring-boot-starter-data-jpa`) | Facilita a **persistência de dados** usando JPA/Hibernate, abstraindo queries SQL          | 
+| **Validation** ✅ (`spring-boot-starter-validation`)    | Adiciona **validações automáticas** em DTOs e entidades                                    | 
+| **Lombok** ✂️(`lombok`)                                | Reduz **boilerplate code**, gerando getters, setters, construtores e outros métodos comuns | 
+| **H2 Database** 🏗️(`com.h2database:h2`)                | Banco de dados **em memória**, ideal para desenvolvimento e testes                         | 
+| **Spring Boot DevTools** 🔄 (`spring-boot-devtools`)    | Permite **hot reload**, reiniciando a aplicação ao salvar alterações                       | 
+| **Swagger/OpenAPI** 📑  (`springdoc-openapi`)            | Gera **documentação automática da API** e interface interativa para testar endpoints       | 
 
 ---
 
