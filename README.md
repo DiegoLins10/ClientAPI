@@ -28,22 +28,26 @@ com.github.diegolins10.clientapi
 
 ## ⚙️ Dependências
 
-Dependências principais do projeto:
+| Dependência                                          | Para que serve                                                                             | Emoji |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----- |
+| **Spring Boot Web** 🌐 (`spring-boot-starter-web`)      | Permite criar **endpoints REST** e construir a camada web da aplicação                     | 🌐    |
+| **Spring Data JPA** 💾  (`spring-boot-starter-data-jpa`) | Facilita a **persistência de dados** usando JPA/Hibernate, abstraindo queries SQL          | 💾    |
+| **Validation** ✅ (`spring-boot-starter-validation`)    | Adiciona **validações automáticas** em DTOs e entidades                                    | ✅     |
+| **Lombok** ✂️(`lombok`)                                | Reduz **boilerplate code**, gerando getters, setters, construtores e outros métodos comuns | ✂️    |
+| **H2 Database** 🏗️(`com.h2database:h2`)                | Banco de dados **em memória**, ideal para desenvolvimento e testes                         | 🏗️   |
+| **Spring Boot DevTools** 🔄 (`spring-boot-devtools`)    | Permite **hot reload**, reiniciando a aplicação ao salvar alterações                       | 🔄    |
+| **Swagger/OpenAPI** 📑  (`springdoc-openapi`)            | Gera **documentação automática da API** e interface interativa para testar endpoints       | 📑    |
 
-- **Spring Boot Web** (`spring-boot-starter-web`) 🌐  
-- **Spring Data JPA** (`spring-boot-starter-data-jpa`) 💾  
-- **Validation** (`spring-boot-starter-validation`) ✅  
-- **Lombok** (`lombok`) ✂️  
-- **H2 Database** (`com.h2database:h2`) 🏗️  
-- **Spring Boot DevTools** (`spring-boot-devtools`) 🔄  
+---
 
 Dependências opcionais para futuras evoluções:
 
-- **PostgreSQL Driver** (`org.postgresql`) 🐘  
-- **MapStruct** (`org.mapstruct`) 🔀  
-- **Spring Boot Actuator** 📊  
-- **Spring Security** 🔒  
-- **Swagger/OpenAPI** (`springdoc-openapi`) 📑  
+| Dependência                                          | Para que serve                                                                             |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **PostgreSQL Driver** 🐘(`org.postgresql`)             | Driver para conexão com **banco relacional PostgreSQL** (produção)                      |
+| **MapStruct** 🔀 (`org.mapstruct`)                      | Facilita o **mapeamento entre DTOs e entidades**, reduzindo código manual              | 
+| **Spring Boot Actuator** 📊                            | Adiciona **endpoints de monitoramento e métricas**, como health check                   | 
+| **Spring Security** 🔒                                 | Implementa **autenticação e autorização**, protegendo endpoints                         | 
 
 ---
 
