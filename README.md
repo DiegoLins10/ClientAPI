@@ -28,8 +28,8 @@ com.github.diegolins10.clientapi
 
 ## ⚙️ Dependências
 
-| Dependência                                          | Para que serve                                                                             | Emoji |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----- |
+| Dependência                                          | Para que serve                                                                             |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Spring Boot Web** 🌐 (`spring-boot-starter-web`)      | Permite criar **endpoints REST** e construir a camada web da aplicação                     | 
 | **Spring Data JPA** 💾  (`spring-boot-starter-data-jpa`) | Facilita a **persistência de dados** usando JPA/Hibernate, abstraindo queries SQL          | 
 | **Validation** ✅ (`spring-boot-starter-validation`)    | Adiciona **validações automáticas** em DTOs e entidades                                    | 
