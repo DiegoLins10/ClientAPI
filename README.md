@@ -107,10 +107,3 @@ http://localhost:8080/api/clientes
 ---
 
 ✨ **by Diego Lins**
-
----
-
-Se quiser, posso também criar **uma versão com links clicáveis para badges e documentação futura do Swagger**, deixando o README ainda mais moderno para o GitHub.  
-
-Quer que eu faça isso também?
-```
