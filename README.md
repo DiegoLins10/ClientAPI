@@ -1,4 +1,12 @@
+Perfeito! Aqui está uma **versão do README com badges**, emojis e visual mais profissional para o GitHub:
+
+---
 # 🚀 ClientAPI - Aplicação de Gerenciamento de Clientes
+
+![Java](https://img.shields.io/badge/Java-25-blue?logo=java) 
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.x-green?logo=spring) 
+![Maven](https://img.shields.io/badge/Maven-3.9.6-red?logo=apache-maven) 
+![H2 Database](https://img.shields.io/badge/H2%20DB-in%20memory-orange?logo=h2-database)
 
 API para gerenciamento de clientes utilizando **Clean Architecture** e **Domain-Driven Design (DDD)**, desenvolvida em **Java 25** com **Spring Boot 3.5.x**.  
 O projeto utiliza um banco de dados em memória (**H2**) para facilitar desenvolvimento e testes locais. 💻🛠️
@@ -25,20 +33,20 @@ com.github.diegolins10.clientapi
 
 Dependências principais do projeto:
 
-- **Spring Boot Web** (`spring-boot-starter-web`) → criação de endpoints REST 🌐  
-- **Spring Data JPA** (`spring-boot-starter-data-jpa`) → persistência de dados 💾  
-- **Validation** (`spring-boot-starter-validation`) → validações de campos ✅  
-- **Lombok** (`lombok`) → reduz boilerplate ✂️  
-- **H2 Database** (`com.h2database:h2`) → banco em memória para desenvolvimento/testes 🏗️  
-- **Spring Boot DevTools** (`spring-boot-devtools`) → hot reload e facilidades de desenvolvimento 🔄  
+- **Spring Boot Web** (`spring-boot-starter-web`) 🌐  
+- **Spring Data JPA** (`spring-boot-starter-data-jpa`) 💾  
+- **Validation** (`spring-boot-starter-validation`) ✅  
+- **Lombok** (`lombok`) ✂️  
+- **H2 Database** (`com.h2database:h2`) 🏗️  
+- **Spring Boot DevTools** (`spring-boot-devtools`) 🔄  
 
 Dependências opcionais para futuras evoluções:
 
-- **PostgreSQL Driver** (`org.postgresql`) → banco relacional real 🐘  
-- **MapStruct** (`org.mapstruct`) → mapeamento DTO ↔ Entity 🔀  
-- **Spring Boot Actuator** → métricas e health check 📊  
-- **Spring Security** → autenticação e autorização 🔒  
-- **Swagger/OpenAPI** (`springdoc-openapi`) → documentação dos endpoints 📑  
+- **PostgreSQL Driver** (`org.postgresql`) 🐘  
+- **MapStruct** (`org.mapstruct`) 🔀  
+- **Spring Boot Actuator** 📊  
+- **Spring Security** 🔒  
+- **Swagger/OpenAPI** (`springdoc-openapi`) 📑  
 
 ---
 
@@ -103,4 +111,9 @@ http://localhost:8080/api/clientes
 
 ✨ **by Diego Lins**
 
+---
 
+Se quiser, posso também criar **uma versão com links clicáveis para badges e documentação futura do Swagger**, deixando o README ainda mais moderno para o GitHub.  
+
+Quer que eu faça isso também?
+```
