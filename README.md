@@ -20,7 +20,7 @@ com.github.diegolins10.clientapi
 ├── application         # Casos de uso e DTOs 📝
 ├── domain              # Entidades e interfaces de repositório 🏛️
 ├── infrastructure      # Persistência, mapeamentos e configurações 🗄️
-└── interfaces          # Controllers REST 🌐
+└── api                 # Controllers REST 🌐
 
 ````
 
@@ -28,8 +28,8 @@ com.github.diegolins10.clientapi
 
 ## ⚙️ Dependências
 
-| Dependência                                          | Para que serve                                                                             | Emoji |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----- |
+| Dependência                                          | Para que serve                                                                             |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Spring Boot Web** 🌐 (`spring-boot-starter-web`)      | Permite criar **endpoints REST** e construir a camada web da aplicação                     | 
 | **Spring Data JPA** 💾  (`spring-boot-starter-data-jpa`) | Facilita a **persistência de dados** usando JPA/Hibernate, abstraindo queries SQL          | 
 | **Validation** ✅ (`spring-boot-starter-validation`)    | Adiciona **validações automáticas** em DTOs e entidades                                    | 
@@ -60,6 +60,42 @@ Dependências opcionais para futuras evoluções:
 | `GET` | `/api/clientes/{id}` | Busca cliente por ID 🔎 |
 | `PUT` | `/api/clientes/{id}` | Atualiza cliente ✏️ |
 | `DELETE` | `/api/clientes/{id}` | Deleta cliente 🗑️ |
+
+---
+
+## 📬 Teste da API com `curl`
+
+Você pode criar um novo cliente utilizando o seguinte comando **`curl`**:
+
+```bash
+curl --location 'http://localhost:8080/api/clients' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Diego",
+    "lastName": "Lins",
+    "email": "diegofernandeslins@gmail.com",
+    "phone": "11987549239"
+}'
+```
+
+### 🔹 Exemplo de Resposta
+
+```json
+{
+    "id": 1,
+    "firstName": "Diego",
+    "lastName": "Lins",
+    "email": "diegofernandeslins@gmail.com",
+    "phone": "11987549239"
+}
+```
+
+### 🔹 Observações
+
+* Certifique-se de que a API está rodando localmente em `http://localhost:8080`
+* O endpoint para criação de clientes é `/api/clients`
+* O cabeçalho `Content-Type` deve ser `application/json`
+* Esse comando irá criar um **novo cliente** no banco de dados em memória (H2)
 
 ---
 
@@ -99,6 +135,34 @@ http://localhost:8080/api/clientes
 * ⚙️ **Maven**
 * ✂️ **Lombok**
 * 🏛️ **JPA/Hibernate**
+
+---
+
+### 🚀 Próximos Passos
+
+* [ ] 🏠 **Integrar API do ViaCEP** para preencher e validar endereços automaticamente ao criar ou atualizar clientes.
+  Fonte: [ViaCEP - API](https://viacep.com.br/)
+
+* [ ] 🎯 **Adicionar Result Pattern** para retorno consistente de sucesso ou falha nas operações.
+
+* [ ] 🔄 **Implementar middleware / interceptadores** para logs, tratamento de erros unificado e validações globais.
+
+* [ ] 🔒 **Adicionar autenticação JWT** para proteger os endpoints da API.
+
+* [ ] 📑 **Documentar a API com Swagger / OpenAPI** para facilitar testes e integração com outros sistemas.
+
+* [ ] 🐘 **Substituir H2 por PostgreSQL** ou outro banco relacional para persistência em produção.
+
+* [ ] 🧪 **Adicionar testes de integração** que validem fluxos completos da API.
+
+* [ ] ✅ **Adicionar validações avançadas de campos** como email, telefone e CPF.
+
+* [ ] 🔀 **Implementar mapeamento DTO ↔ Entity com MapStruct** para reduzir boilerplate.
+
+### ***Indicadores de Conclusão***
+
+* [ ] = tarefa pendente
+* [x] = tarefa concluída
 
 ---
 
