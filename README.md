@@ -63,6 +63,42 @@ Dependências opcionais para futuras evoluções:
 
 ---
 
+## 📬 Teste da API com `curl`
+
+Você pode criar um novo cliente utilizando o seguinte comando **`curl`**:
+
+```bash
+curl --location 'http://localhost:8080/api/clients' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Diego",
+    "lastName": "Lins",
+    "email": "diegofernandeslins@gmail.com",
+    "phone": "11987549239"
+}'
+```
+
+### 🔹 Exemplo de Resposta
+
+```json
+{
+    "id": 1,
+    "firstName": "Diego",
+    "lastName": "Lins",
+    "email": "diegofernandeslins@gmail.com",
+    "phone": "11987549239"
+}
+```
+
+### 🔹 Observações
+
+* Certifique-se de que a API está rodando localmente em `http://localhost:8080`
+* O endpoint para criação de clientes é `/api/clients`
+* O cabeçalho `Content-Type` deve ser `application/json`
+* Esse comando irá criar um **novo cliente** no banco de dados em memória (H2)
+
+---
+
 ## 🚀 Como rodar o projeto
 
 1. Clone o repositório:
