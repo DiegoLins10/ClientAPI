@@ -20,7 +20,7 @@ com.github.diegolins10.clientapi
 ├── application         # Casos de uso e DTOs 📝
 ├── domain              # Entidades e interfaces de repositório 🏛️
 ├── infrastructure      # Persistência, mapeamentos e configurações 🗄️
-└── interfaces          # Controllers REST 🌐
+└── api          # Controllers REST 🌐
 
 ````
 
